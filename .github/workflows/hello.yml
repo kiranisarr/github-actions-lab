@@ -1,0 +1,9 @@
+name: first github actions workflows
+on:
+  push:
+jobs:
+  hello:
+    runs-on: ubuntu-latest
+    steps:
+        name: Display message
+        run: echo "My first CI workflow is running!"
