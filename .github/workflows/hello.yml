@@ -7,5 +7,5 @@ jobs:
   hello:
     runs-on: ubuntu-latest
     steps:
-      - name: Display Message
-        run: echo "My first CI workflow is running!"
+      - name: Welcome Message
+        run: echo "Welcome to my GitHub Actions lab!"
